@@ -1,0 +1,187 @@
+body {
+    background-color: #1A2B3E;
+    display: flex;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search_text {
+    width: 650px;
+    height: 45px ;
+    background-color: #333333;
+    border: 1px solid #424242;
+    padding-left: 15px;
+}
+
+.drop_menu {
+    display: block;
+    
+}
+.ul_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}
+.ul_box li {
+    list-style: none;
+}
+.ul_box li a {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+
+    
+}
+.ul_box li ul {
+    display: none;
+   position: absolute; 
+}
+.ul_box li ul li {
+   padding: 8px 0px;
+}
+.ul_box li ul li:hover{
+ background-color: #4CA3A4;
+}
+.drop_menu ul li:hover ul{
+ display: block;
+}
+.in_level {
+    padding: 20px 0px;
+    background-color:#333333 ;
+    width: 166px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.in_nation {
+    padding: 20px 0px;
+    background-color:#333333 ;
+    width: 166px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.in_class {
+    padding: 20px 0px;
+    background-color:#333333 ;
+    width: 166px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.name_info {
+    background-color:#333333 ;
+    border: 1px solid #424242;
+    padding-left: 10px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.search_text {
+    color: white;
+}
+
+.card {
+    background-color: #21354D;
+    width: 200px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+    opacity: 1000%;
+}
+.p_1 {
+    margin: 5px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(235, 235, 235);
+   font-size: 10px;
+}
+.h_3 {
+    margin: 10px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+   font-size: 20px;
+   font-weight: 700;
+}
+.section_card {
+    display: grid;
+    margin-top: 16px;
+    width: 670px;
+    grid-gap: 13px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.line {
+    height: 606px;
+    width: 1px;
+    background-color: #485464;
+    float: left; 
+    
+}
+hr {
+    border: none;
+    color: #485464;
+    height: 1px;
+    background-color: #485464;
+
+}
+h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right_block {
+    margin-left: 35px;
+}
+.right_box {
+    margin-left: 35px;
+}
+.card_box_right {
+    display: grid;
+    grid-gap: 15px;
+
+}
+p {
+    color: white;
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+button {
+   background-color: #4CA3A4; 
+   color: white;
+   border: none;
+   padding: 15px 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.toGreen {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+    color: #000;
+    opacity:1;
+}
+
+.click {
+opacity: 45%;
+}
+
+.card:hover {
+    box-shadow: 1px 2px 20px rgba(14, 17, 56, 0.61);
+    cursor: pointer;
+}
+
+.myClass {
+opacity: 45%;
+}
